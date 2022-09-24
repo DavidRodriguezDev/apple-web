@@ -1,0 +1,21 @@
+.b-watch {
+    width: 100%;
+    height: 600px;
+    background-image: url(/assets/img/watch.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-star;
+}
+
+.b-watch {
+    img {
+        width: 130px;
+        height: 50px;
+        margin-top: 40px;
+    }
+}
+

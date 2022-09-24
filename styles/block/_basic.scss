@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*PALETA COLORES*/
+
+:root {
+    --blanco: #f5f5f7;
+    --gris: #8f8f94;
+    --azul: #2892f6;
+    --morado: #ca2166;
+}
+
+.white {
+    color: var(--blanco);
+}
+
+.blue {
+    color: var(--azul);
+}
+
+.grey {
+    color: var(--gris);
+}
+
+/*FUENTES*/
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 300;
+    src: url(/fonts/Roboto/Roboto-Light.ttf);
+} 
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 400;
+    src: url(/fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 500;
+    src: url(/fonts/Roboto/Roboto-Medium.ttf);
+}
+  
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 700;
+    src: url(/fonts/Roboto/Roboto-Bold.ttf);
+} 
+
+.b-text {
+    font-family: "Roboto";
+    font-weight: 400;
+    margin: 5px;
+}
+
+.b-text--regular {
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+.b-text--light {
+    font-family: "Roboto";
+    font-weight: 300;
+}
+
+.b-text--bold {
+    font-family: "Roboto";
+    font-weight: 700;
+}
+
+.b-text--white {
+    color:white;
+}
+

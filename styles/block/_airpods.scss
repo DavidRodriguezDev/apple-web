@@ -1,0 +1,12 @@
+.b-airpods {
+    width: 100%;
+    height: 600px;
+    background-image: url(/assets/img/airpods.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-star;
+}
